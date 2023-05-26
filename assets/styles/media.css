@@ -1,0 +1,35 @@
+@media (max-width:768px){
+    .menu-burger{
+        display: block;
+    }
+    .main-menu, .lang-switcher{
+        display: none;
+    }
+    .main-content{
+        grid-template-columns: auto;
+    }
+    .services-cards{
+        grid-template-columns: repeat(2, auto);
+    }
+    .company-content{
+        flex-direction: column;
+    }
+    .contacts-content{
+        grid-template-columns: auto;
+    }
+}
+
+@media(max-width:600px){
+    .services-cards{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+}
+@media(max-width: 400px){
+    .main-title{
+        font-size: 25px;
+    }
+    .main-img, .name{
+        max-width: 100%;
+    }
+}
